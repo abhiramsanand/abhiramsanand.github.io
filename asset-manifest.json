@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cd36a264.css",
+    "main.js": "/static/js/main.d0b61f26.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/avatar.png": "/static/media/avatar.000a8fa87255eb0f01c5.png",
+    "static/media/about.png": "/static/media/about.826f7c001b2837b7ceec.png",
+    "static/media/home-bg.jpg": "/static/media/home-bg.2da69a16d033b11e117f.jpg",
+    "static/media/FootFacts.jpg": "/static/media/FootFacts.d27ffb600fddae379a49.jpg",
+    "static/media/RMS.jpg": "/static/media/RMS.b5e2d44c22553b3bddcb.jpg",
+    "static/media/home-main.png": "/static/media/home-main.0addceb7152b06997686.png",
+    "static/media/MIA.jpg": "/static/media/MIA.a36e4b671d57402c48f0.jpg",
+    "static/media/OneForAll.jpg": "/static/media/OneForAll.ec839fc4953807ad4f1f.jpg",
+    "static/media/logo.svg": "/static/media/logo.6c69f2e439af05043f8ce1dfa645143f.svg",
+    "static/media/ToDoList.jpg": "/static/media/ToDoList.b88be551d6a166b5fde4.jpg",
+    "static/media/AbhiramResume.pdf": "/static/media/AbhiramResume.8e49170e09824dab218b.pdf",
+    "static/media/pre.svg": "/static/media/pre.1471f3832054f90e23c1.svg",
+    "index.html": "/index.html",
+    "main.cd36a264.css.map": "/static/css/main.cd36a264.css.map",
+    "main.d0b61f26.js.map": "/static/js/main.d0b61f26.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd36a264.css",
+    "static/js/main.d0b61f26.js"
+  ]
+}
