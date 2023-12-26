@@ -6,7 +6,8 @@ import MIA from "../../Assets/Projects/MIA.jpg";
 import ToDoList from "../../Assets/Projects/ToDoList.jpg";
 import RMS from "../../Assets/Projects/RMS.jpg";
 import OneForAll from "../../Assets/Projects/OneForAll.jpg";
-import FootFacts from "../../Assets/Projects/FootFacts.jpg";
+import LCU from "../../Assets/Projects/lcu.jpg";
+import caddworld from '../../Assets/Projects/caddworld.jpg'
 
 function Projects() {
   return (
@@ -17,9 +18,20 @@ function Projects() {
           <strong className="purple">PORTFOLIO</strong>
         </h1>
         <p style={{ color: "white" }}>
-        Showcasing My Recent Ventures.
+          Showcasing My Recent Ventures.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={caddworld}
+              isBlog={false}
+              title="Cadd World Group"
+              description="As a freelance web developer, I crafted the website for Cadd World, a premier Autodesk-affiliated educational institute in Kozhikode. The dynamic site highlights courses in AutoCAD, 3ds Max, STAAD.Pro, and more, covering BIM, Civil, Infrastructure Designing, Mechanical, MEP, Electrical, Piping, and Project Management. The responsive design, intuitive navigation, and emphasis on affiliation with Autodesk contribute to an engaging online presence, aligning with Cadd World's commitment to excellence in CADD education."
+              demoLink="https://caddworldgroup.com/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={RMS}
@@ -45,8 +57,8 @@ function Projects() {
               imgPath={MIA}
               isBlog={false}
               title="Movie-Info-App"
-              description= " Step in to the world of cinema like never before with MOVIE-INFO-APP - the Java-powered Flutter app that brings the magic of movies to your Android device. Discover real-time lists of the latest Movie releases, complete with IMDb ratings, plots, trailers, and behind-the-scenes insights. Choose your journey by sorting between 'Top Rated' and 'Latest' films, and effortlessly build your personal 'Favorites' list. Elevate your movie-watching experience with MOVIE-INFO-APP - where every frame is a story waiting to be explored."
-              ghLink="https://github.com/abhiramsanand/Movie-Info-App"             
+              description=" Step in to the world of cinema like never before with MOVIE-INFO-APP - the Java-powered Flutter app that brings the magic of movies to your Android device. Discover real-time lists of the latest Movie releases, complete with IMDb ratings, plots, trailers, and behind-the-scenes insights. Choose your journey by sorting between 'Top Rated' and 'Latest' films, and effortlessly build your personal 'Favorites' list. Elevate your movie-watching experience with MOVIE-INFO-APP - where every frame is a story waiting to be explored."
+              ghLink="https://github.com/abhiramsanand/Movie-Info-App"
             />
           </Col>
 
@@ -62,11 +74,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={FootFacts}
+              imgPath={LCU}
               isBlog={false}
-              title="FootFacts"
-              description="Get ready to step into the world of 'FootFacts', an upcoming React JS web app that is set to redefine your football experience. As the project takes its first steps, it promises to be a haven for football enthusiasts.This app is designed to deliver real-time updates and in-depth information on football. But what truly sets 'FootFacts' apart is its dedication to the Malayali football community. A treasure trove for football fans from Kerala, this app aims to provide a personalized touch, making it more than just a football app – it's a celebration of the spirit of Mallu football lovers. As development unfolds, we're excited to bring you the ultimate football experience – for free."
-              ghLink="https://github.com/abhiramsanand/Footfacts"
+              title="LokiVerse"
+              description="LokiVerse is a dynamic and immersive website dedicated to exploring the cinematic universe crafted by director Lokesh Kanagaraj. Focused on films like Kaithi, Vikram, and Leo, LokiVerse invites visitors into a realm where stories unfold and characters come to life. From visually captivating posters to soul-stirring songs, the Gallery showcases the richness of Lokesh's creations. Dive into the Characters page for insights into iconic personalities like Dilli, Vikram, and Leo Das. Stay updated on the latest developments with the News section, and discover the upcoming additions to the LCU. Explore, engage, and immerse yourself in Lokesh's captivating world."
+              ghLink="https://github.com/abhiramsanand/Lokiverse.git/"
+              demoLink="https://lokiverse.vercel.app/"
             />
           </Col>
 
